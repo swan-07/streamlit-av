@@ -1,5 +1,8 @@
 import nltk
 import spacy
+from spacy.cli import download
+
+download("en_core_web_sm")
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('conll2000')
