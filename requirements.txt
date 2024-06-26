@@ -1,5 +1,4 @@
 en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.0.0/en_core_web_sm-3.0.0-py3-none-any.whl#sha256=dfba97b3cb5c177f60c4087a5b4f5c9d7f5c0fce7150d8aa7c0aab4eb4811a07
-
 huggingface-hub==0.23.0
 joblib==1.2.0
 nltk==3.8.1
@@ -10,12 +9,10 @@ pandas==1.5.0
 pathlib==1.0.1
 pathlib2==2.3.7.post1
 pathlib_abc==0.1.1
-
 pickleshare==0.7.5
 
 
 scikit-learn
-scikit-learn-intelex==20230426.61523
 scipy==1.9.1
 semantic-version==2.10.0
 sentence-transformers==3.0.1
