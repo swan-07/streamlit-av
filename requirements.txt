@@ -13,7 +13,7 @@ pickleshare==0.7.5
 
 
 scikit-learn
-scipy==1.9.1
+scipy
 semantic-version==2.10.0
 sentence-transformers==3.0.1
 sentencepiece==0.2.0
@@ -21,9 +21,7 @@ spacy==3.0.0
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 streamlit==1.25.0
-tensorflow==2.9.1
-tensorflow-estimator==2.9.0
-tensorflow-io-gcs-filesystem==0.37.0
+tensorflow
 textcomplexity==0.11.0
 thinc==8.0.3
 tokenizers==0.19.1
