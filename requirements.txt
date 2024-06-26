@@ -14,7 +14,7 @@ pathlib_abc==0.1.1
 pickleshare==0.7.5
 
 
-scikit-learn==0.24.2
+scikit-learn
 scikit-learn-intelex==20230426.61523
 scipy==1.9.1
 semantic-version==2.10.0
