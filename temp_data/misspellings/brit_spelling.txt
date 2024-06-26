@@ -1,0 +1,68 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "b269d4ef-6814-4767-b21a-8fa5721529f1",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "centre\tcenter\n",
+    "fibre\tfiber\n",
+    "litre\tliter\n",
+    "theatre\ttheater or theatre\n",
+    "colour\tcolor\n",
+    "flavour\tflavor\n",
+    "humour\thumor\n",
+    "labour\tlabor\n",
+    "neighbour\tneighbor\n",
+    "apologize apologise\tapologize\n",
+    "organize organise\torganize\n",
+    "recognize recognise\trecognize\n",
+    "analyse\tanalyze\n",
+    "breathalyse\tbreathalyze\n",
+    "paralyse\tparalyze\n",
+    "travel\ttravel\n",
+    "travelled\ttraveled\n",
+    "travelling\ttraveling\n",
+    "traveller\ttraveler\n",
+    "fuel\tfuel\n",
+    "fuelled\tfueled\n",
+    "fuelling\tfueling\n",
+    "leukaemia\tleukemia\n",
+    "manoeuvre\tmaneuver\n",
+    "oestrogen\testrogen\n",
+    "paediatric\tpediatric\n",
+    "defence\tdefense\n",
+    "licence\tlicense\n",
+    "offence\toffense\n",
+    "pretence\tpretense\n",
+    "analogue\tanalog or analogue\n",
+    "catalogue\tcatalog or catalogue\n",
+    "dialogue\tdialog or dialogue\n",
+    "\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.12"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
