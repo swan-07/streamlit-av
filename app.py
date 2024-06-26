@@ -1,12 +1,12 @@
 import nltk
-import spacy
-from spacy.cli import download
+# import spacy
+# from spacy.cli import download
 
-download("en_core_web_sm")
+# download("en_core_web_sm")
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
 nltk.download('conll2000')
-nlp = spacy.load("en_core_web_sm")
+# nlp = spacy.load("en_core_web_sm")
 
 import streamlit as st
 from sentence_transformers import SentenceTransformer
