@@ -148,7 +148,7 @@ button_col1, button_col2 = st.columns(2)
 bert_clicked = False
 feature_vectors_clicked = False
 with button_col1:
-  if st.button("Go (BERT)"):
+  if st.button("Go (Embedding)"):
 
       #load tokenizer and BERT model
       bert_clicked = True
@@ -182,7 +182,7 @@ with output_col1:
     if 'highlighted_text' in st.session_state:
         st.markdown(f"<div style='border: 1px solid; padding: 10px;'>{st.session_state['highlighted_text']}</div>", unsafe_allow_html=True)
 
-    st.write("### Probability Same Author (BERT)")
+    st.write("### Probability Same Author (Embedding)")
     if 'bert_probability' in st.session_state:
         st.markdown(f"<div style='border: 1px solid; padding: 10px;'>{st.session_state['bert_probability']:.4f}</div>", unsafe_allow_html=True)
 
