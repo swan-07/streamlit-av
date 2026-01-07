@@ -200,10 +200,6 @@ with st.sidebar:
     - **Reuters50**, **IMDB62**, **Blog Corpus**
     - **arXiv**, **Victorian Era**, **BAWE**
     - **DarkReddit**
-
-    **Primary Citations:**
-    - Manolache et al. (2021) - [Transferring BERT Knowledge](https://arxiv.org/abs/2112.05125)
-    - Kestemont et al. (2020) - [PAN 2020 Overview](http://ceur-ws.org/Vol-2696/paper_264.pdf)
     """)
 
 # Example texts (from swan07/authorship-verification test set)
@@ -433,12 +429,3 @@ After sigmoid:      {results['ensemble']['score']:.4f}
             - Distance from 0.5 indicates confidence
             """)
 
-# Footer
-st.markdown("---")
-st.markdown("""
-<div style='text-align: center'>
-    <p><strong>Built with Streamlit</strong> | 🎯 Ensemble: 73.9% accuracy, 0.823 AUC</p>
-    <p style='font-size: 0.9em;'>Dataset: <a href='https://huggingface.co/datasets/swan07/authorship-verification'>swan07/authorship-verification</a> (325K pairs from 12 sources including PAN 2011-2020)</p>
-    <p style='font-size: 0.8em;'>Manolache et al. (2021). <em>Transferring BERT-like Transformers' Knowledge for Authorship Verification</em>. <a href='https://arxiv.org/abs/2112.05125'>arXiv:2112.05125</a></p>
-</div>
-""", unsafe_allow_html=True)
